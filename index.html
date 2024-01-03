@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
 </head>
 <body>
-    
-    <div class="container">
-        <div id="newtask">
-            <input type="text" placeholder="entrer la tâche">
-            <button id="push">Add</button>
-            <div id="tasks"></div>
+    <section>
+        <h1>To Do List</h1>
+        <div class="container">
+            <div class="full_input">
+                <input type="text" placeholder="Ajouter une tâche..." id="inputFile">
+                <button id="addToDo">+</button>
+            </div>
+            <div id="toDoContainer"></div>
         </div>
-    </div>
+    </section>
+  
+    <script src="./app.js"></script>
 </body>
 </html>
